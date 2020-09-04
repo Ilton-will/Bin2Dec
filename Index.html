@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2Dec</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Binário2Décimal</h1>
+    </header>
+    <section>
+    	<form>
+    	  	<div class="form">
+		        <div class="aloc">
+		            <p><b>Binário</b>(máx: 8 digits)</p>
+		        </div>
+		        <div class="inpt">
+		            <input type="text" placeholder="1101" class="entrada" id="bin">
+		        </div>
+	    	</div>
+	    	<div id="mid">
+	    		<p id="igual">=</p>
+	    	</div>
+	    	<div class="form">
+		        <div class="aloc">
+		            <p><b>Décimal</b>(máx: 255)</p>
+		        </div>
+		         <div class="inpt">
+		            <input type="text" placeholder="13" class="entrada" id="dec">
+		        </div>
+		    </div>
+		    <div id="button">
+		    	<input type="button" name="reset" value="reset" id="button">
+		    </div>
+        </form>
+    </section>
+    <script type="text/javascript" src="js/calculos.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+</body>
+</html>
