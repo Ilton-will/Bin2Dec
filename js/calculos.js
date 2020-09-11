@@ -28,7 +28,10 @@ $dec.addEventListener("keyup", () => {
 		$dec.value = '';
 	}else if ($dec.value < 0) {
 		$dec.value = 0;
-	}else 
+	}else if ($dec.value > 255) {
+		$dec.value = 255;
+		$bin.value = 11111111;
+	}else
 		$dec.oninput = function (){
 			$bin.value = dec2bin($dec.value)
 		}
