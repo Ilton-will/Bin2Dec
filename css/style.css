@@ -52,3 +52,10 @@ p#igual{
 	text-align: right;
 	font-size: 40px;
 }
+
+@media (max-width: 939px)  {
+
+    .container {
+        width: 96%;
+    }
+}
