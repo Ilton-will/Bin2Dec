@@ -55,7 +55,23 @@ p#igual{
 
 @media (max-width: 939px)  {
 
-    .container {
-        width: 96%;
-    }
+    body{
+        width: 99%;
+	}
+	h1{
+		margin: auto;
+		width: 320px;
+	}
+}
+
+@media (max-width: 320px)  {
+
+	body{
+		width: 95%;
+	}
+	h1{
+		margin: auto;
+		width: 275px;
+	}
+
 }
